@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+  <title>NARUTO QUIZ</title>
+</head>
+
+<body>
+  <div id="menu" class="slide-menu">
+    <a href="#" class="close-menu-bttn" onclick="closeSlideMenu()">&times; </a>
+    <div class="menu-content"> MENU <br><br>
+      <a href="characters.html">Characters</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Start</a>
+    </div>
+  </div>
+  <span class="menu-bttn" onclick="openSlideMenu()">
+    <div class="hamburger-bttn">
+    </div>
+  </span> 
+
+  <div class="header1">
+    <h1>
+      <br>
+      WHICH CHARACTER ARE YOU?
+    </h1>
+    <h2 class="h2">(answer the following questions)</h2> <br>
+    <br>
+    <br>
+  </div>
+
+  <div class="q1"> <br> 
+    How do you descibe your self?
+    <div class="choices1">
+      <button id="choice1-1">Strong</button>
+      <button id="choice1-2">Snob</button>
+      <button id="choice1-3">Lonely</button>
+      <button id="choice1-4">Lazy</button>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="q2">
+    What is your fighting style?
+    <div class="choices2">
+      <button id="choice2-1">Unpredictable</button>
+      <button id="choice2-2">Powerful but careful</button>
+      <button id="choice2-3">Calm</button>
+      <button id="choice2-4">Tactful and Smart</button>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="q3">What do you value the most?
+    <div class="choices3">
+      <button id="choice3-1">Friends</button>
+      <button id="choice3-2">Power</button>
+      <button id="choice3-3">Kindness</button>
+      <button id="choice3-4">Food</button>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="q4">
+    What kind or student were you?
+    <div class="choices4">
+      <button id="choice4-1">Genius</button>
+      <button id="choice4-2">Class Clown</button>
+      <button id="choice4-3">Popular</button>
+      <button id="choice4-4">Lazy</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="q5">Pick one food you like
+    <div class="choices5">
+      <button id="choice5-1">Pork BQQ</button>
+      <button id="choice5-2">Ramen</button>
+      <button id="choice5-3">Riceball</button>
+      <button id="choice5-4">Chips</button>
+    </div>
+  </div>
+  <br>
+
+  <button type="button" id="submit-button">
+    Submit
+  </button><br><br>
+  
+  <div id="text"></div>
+  <div id="image"></div> <br><br>
+  <a href="questions.html" id="reset"></a>
+  <br> <br>
+</body>
+
+</html>

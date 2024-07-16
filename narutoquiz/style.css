@@ -1,0 +1,305 @@
+.bttn {
+  background-color:orange;
+  color: white;
+  padding: 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; 
+  font-size: 40px;   
+  font-weight: bold;
+}
+
+.bttn:hover, .dropbtn:focus {
+  background-color: darkorange;
+
+}
+* {
+  box-sizing: border-box; 
+
+}
+.header{
+  background-position-y: -50px;
+  font-size: 50px;
+
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg);
+  background-size: cover;
+  font-family: 'Marko One', serif;
+  }
+
+.about-header {
+  background-color: whitesmoke;
+  font-size-adjust: 30%;
+  color: tomato;
+  text-align: center;
+}
+img{
+  width: 500px;
+  height: 500px;
+}
+
+.q1, .q2, .q3, .q4, .q5{
+  font-size: 100%;
+  color: black;
+  text-align: center;
+}
+
+.menu-bttn {
+  position: relative;
+  display: flex;
+  margin: 20px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgb(255, 102, 0);
+}
+
+.hamburger-bttn {
+  margin: 5px;
+  margin-top: 17px;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgb(255, 102, 0);
+}
+
+.hamburger-bttn::before{
+  margin-top: 5px;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgb(255, 102, 0);
+}
+.hamburger-bttn::after {
+  margin-top: -5px;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgb(255, 102, 0);
+}
+
+.hamburger-bttn::before {
+  transform: translateY(-16px);
+}
+
+.hamburger-bttn::after {
+  transform: translateY(16px);
+}
+
+.slide-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #272727;
+}
+
+.slide-menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+  display: block;
+  transition: 0.3s;
+}
+
+.slide-menu a:hover, .slide-menu a:focus {
+  color: #f1f1f1;
+}
+
+.slide-menu .close-menu-bttn {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 60px;
+}
+
+@media screen {
+/* .slide-menu a {font-size: 20px} */
+.slide-menu .close-menu-bttn{
+  font-size: 45px;
+  top: 20px;
+  right: 25px;
+  } 
+
+  .start {
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .header {
+    background-color: whitesmoke;
+    color: tomato;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 100%;
+  }
+  .transbox p{
+    padding: 2%;
+    margin: 20px;
+    text-align: justify;
+    font-weight: 100%;
+    color: whitesmoke;    
+  }
+  .transbox{
+    background-color: tomato;
+    margin: 20px;
+    opacity: 0.8;
+  }
+  .about-body{
+    background-image: url(https://www.pcclean.io/wp-content/gallery/naruto-hd-wallpapers-1/621480.jpg);
+  }
+  .q1, .q2, .q3, .q4, .q5{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    
+  }
+  .q1{
+    padding: 10px;
+  }
+  .ninja-content{
+    margin: 3px;
+    /* margin-top: 3cm; */
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+
+  img{
+    max-width: 100%;
+    height: 50%;
+  }
+ 
+
+  #submit-button{
+    margin-left: 47%;
+    margin-top: 5%;
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+  #submit-button:disabled{
+    opacity: 0;
+  }
+
+
+  .start-bttn{
+    text-align: center; 
+    font-size: 25px;
+  }
+
+
+  #text{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  #resetbtn {
+    background-color: orange;
+    font-size: 25px;
+    margin-left: 46%;
+  
+    
+  }
+  .header1 {
+    background-image: url(https://i.pinimg.com/originals/fb/10/e1/fb10e16ce8776e6b7e4d4213a16d4344.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: tomato;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 30px;
+    
+  }
+
+ 
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 1%;
+  font-size: 100%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px gray;
+}
+
+button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+}
+
+button:disabled{
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 1%;
+  font-size: 100%;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  cursor: not-allowed;
+ 
+
+}
+
+
+
+body {
+  background-image: url(https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Marko One', serif;
+  max-height: 100cm;
+}
+
+
+.char-body{
+  background-image: url(https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Marko One', serif;
+  max-height: 500cm;
+}
+
+.h2{
+  color: whitesmoke;
+}
+  
+  
+
+}
